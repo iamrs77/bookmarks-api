@@ -1,6 +1,6 @@
 # Bookmarks API
 
-[![CI](https://github.com/iamrs77/NestJS-API/actions/workflows/ci.yml/badge.svg)](https://github.com/iamrs77/NestJS-API/actions/workflows/ci.yml)
+[![CI](https://github.com/iamrs77/bookmarks-api/actions/workflows/ci.yml/badge.svg)](https://github.com/iamrs77/bookmarks-api/actions/workflows/ci.yml)
 
 A REST API where people can sign up, log in and save their own bookmarks (links to websites).
 
@@ -52,8 +52,8 @@ When the API is running, the full docs are at **http://localhost:3000/docs**. Yo
 You only need [Docker](https://docs.docker.com/get-docker/). You don't need Node or PostgreSQL.
 
 ```bash
-git clone https://github.com/iamrs77/NestJS-API.git
-cd NestJS-API
+git clone https://github.com/iamrs77/bookmarks-api.git
+cd bookmarks-api
 docker compose up --build
 ```
 
@@ -66,8 +66,8 @@ Press `Ctrl+C` to stop it. Run `docker compose down` to remove the containers.
 You need **Node 22 or newer**, and Docker for the database.
 
 ```bash
-git clone https://github.com/iamrs77/NestJS-API.git
-cd NestJS-API
+git clone https://github.com/iamrs77/bookmarks-api.git
+cd bookmarks-api
 npm install
 cp .env.example .env         # Windows PowerShell: copy .env.example .env
 npm run db:up                # start PostgreSQL in Docker (port 5434)
